@@ -18,13 +18,13 @@ string(name: 'NAME', description: 'Please tell me your name')
                 sleep 1
                 echo 'Build OK!'
                 echo 'Building "[US]maintenir la concentration des réservoirs de carburant à plus de 250 PPM au lancement" ...'
-                sleep 1
+                sleep 2
                 echo 'Build OK!'
                 echo 'Building "[US] réduire la consommation globale de carburant de 1 %" ...'
                 sleep 1
                 echo 'Build OK!'
                 echo 'Building "[US]embaucher un nouvel ingénieur en propulsion pour remplacer Gary. #garygate2050" ...'
-                sleep 1
+                sleep 2
                 echo 'Build OK!'
             }
         }
