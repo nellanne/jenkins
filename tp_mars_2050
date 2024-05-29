@@ -14,7 +14,7 @@ pipeline {
                     def name = "${params.NAME}"
                     def text = "${params.DESC}"
                     def skip = "${params.SKIP_TEST'}"
-                    if(skip == ) {
+                    if(skip == "TRUE" ) {
                     echo "Mr. $name"
                             }
                     else {
