@@ -1,1 +1,42 @@
+pipeline {
+agent any
+parameters {
+string(name: 'NAME', description: 'Please tell me your name')
 
+}   
+    stage('BUILD') {
+            steps {
+                echo 'Building app...'
+                sleep 1
+                echo 'Building "[US] mettre à jour la plage de dates pour inclure les dates du lancement de mars 2050" ...'
+                sleep 1
+                echo 'Build OK!'
+                echo 'Building "[US]réduire le temps de chargement des listes de vols demandées à < 0,45 seconde" ...'
+                sleep 1
+                echo 'Build OK!'
+                echo 'Building "[US]promouvoir les soldes d'été pour Saturne sur la page de confirmation des réservations en première classe" ...'
+                sleep 1
+                echo 'Build OK!'
+                echo 'Building "[US]maintenir la concentration des réservoirs de carburant à plus de 250 PPM au lancement" ...'
+                sleep 1
+                echo 'Build OK!'
+                echo 'Building "[US] réduire la consommation globale de carburant de 1 %" ...'
+                sleep 1
+                echo 'Build OK!'
+                echo 'Building "[US]embaucher un nouvel ingénieur en propulsion pour remplacer Gary. #garygate2050" ...'
+                sleep 1
+                echo 'Build OK!'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing'
+            }
+        }
+        stage('DEPLOY') {
+            steps {
+                echo 'Mise en Production'
+            }
+        }
+    }
+}
